@@ -1,0 +1,41 @@
++++
+categories = ["Introductions"]
+comments = false
+date = "2017-05-06T18:35:52-05:00"
+showSocial = false
+tags = ["about", "coala"]
+title = "Hello!"
++++
+
+Due to popular demand, and the fact I wrote myself into it in the last release notes,
+I'm starting a blog now. Astute observers may notice that this blog was requested last
+release, but I completely forgot about it.
+
+I'm a *NIX user/programmer who really doesn't like much else footnote:[Yes Mac OSX is
+unix, but how could I possible like an OS which ships a 7 year outdated bash verison?]
+operating system wise. I administer a small home server and handle releases over at the
+coala project. As far as I am concerned, Cisco low end consumer gear and low end business 
+gear is absolute crap (the ASA 5505 is a particular offender). I permanently switched to 
+Linux after Windows 10 made it clear it wanted to be one giant piece of spyware (I had
+been a long time Linux user before).
+
+This blog will mainly contain technical writeups on coala releases. I might end up
+adding other things over time like GSOC or other events. This will not be a personal
+blog (I'm hoping) and thus will not have any life story, philosophy, etc. I'll mainly
+writing this in my free time so the posting frequency will probably be very erratic.
+
+This blog is powered by Hugo, using asciidoc as the markup language. So far, Hugo has
+been pretty impressive; the generation time is ridiculously low for the few stress tests
+I've run so far. Initially, was going to try pelican since it was written in python and
+was supposedly light and fast. However, I couldn't find a theme with the capabilities I
+wanted so I chose Hugo.
+
+As you can see from a first glance, it's pretty stock theming options. I kept nearly
+all of the CSS which shipped with the theme since my design aesthetic really sucks (I
+should have failed art). However, I did tweak some of the linking and HTML to make the
+site more intuitive (I hope...) I still plan on  touching up few more things like the
+side bar and other assorted bits to look slightly nicer. Expect more on the technical
+details in future blog posts.
+
+Anyways, this post has gone on long enough, so I'll end it here. Expect a blog post on
+coala's 0.11.0rc2 soon.

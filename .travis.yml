@@ -1,0 +1,18 @@
+language: go
+
+env:
+  global:
+    - PATH="$TRAVIS_BUILD_DIR/go/bin:$PATH"
+    - GH_NAME="mixih"
+
+install:
+  - gem install asciidoctor       
+  - go get -v github.com/kardianos/govendor
+  - govendor get -v github.com/spf13/hugo
+
+script:
+  - hugo version
+  - hugo -v
+
+after_success:
+  - bash .ci/deploy.sh

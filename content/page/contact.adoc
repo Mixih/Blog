@@ -1,0 +1,23 @@
++++
+categories = ["pages"]
+comments = false
+date = "2017-05-06T12:41:13-05:00"
+showDate = false
+showPagination = false
+showSocial = false
+showTags = false
+tags = ["static_pages"]
+title = "Contact Information"
+
++++
+
+==== Social Media:
+Gitter username: Mixih
+
+==== Email: 
+`mixih [at] coala [dot] io`
+footnote:[Replace [at\] and [dot\] with the appropriate symbols]
+footnote:[Yes I know this doesn't really stop bots, but it stops stupid ones]
+
+==== GPG/encrypted:
+To be added once I stop losing my gpg keys
