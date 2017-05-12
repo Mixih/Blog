@@ -1,0 +1,35 @@
++++
+categories = ["releases"]
+date = "2017-05-12T00:00:00Z"
+tags = ["pre-release", "coala"]
+title = "coala/coala-bears 0.11.0rc2 Pre-release Bulletin"
+showSocial = false
+comments = false
++++
+
+The coala/coala-bears release candidate 0.11.0rc2 has been released. This is a
+pre-release *intended* for testing and not for production. This pre-release fixes
+the following major regressions found
+in 0.11.0rc1:
+
+*coala*
+
+. Section inheritence doesn't work when using mixed capitalization 
+  footnote:[coala https://github.com/coala/coala/issues/4182[issue #4182]]
+
+*Bears*
+
+. `KeywordBear` returns a result for every character when keyword is set to `''` to
+  clear default keywords
+  footnote:[coala-bears https://github.com/coala/coala-bears/issues/1689[issue#1689]]
+
+'''
+
+*Installing this pre-release*
+
+1. Create a new virtualenv (see the http://api.coala.io/en/latest/Developers/Development_Setup.html#virtualenv[docs] for instructions)
+2. Run `pip3 install coala-bears[alldeps]==0.11.0rc2 --pre -U`
+3. Run coala over your project which uses coala
+4. Report any regressions to the appropriate coala repo. Our bot will automatically
+label it with the correct tags. https://github.com/coala/coala/issues[coala] | 
+https://github.com/coala/coala-bears/issues[coala-bears]
